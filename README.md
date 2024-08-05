@@ -113,5 +113,26 @@ Creating Live Chat using API Polling.
 
 ## Episode-4: useMemo, useCallback, useRef Hooks
 ### What this Episode all about
+Understanding some important hooks: useMemo, useCallback, useRef
+
 ### Topics Covered:
+- useMemo
+- useCallback
+- useRef
+
 ### Brief summary about what we have done:
+- In this episode we are going through some important hooks useMemo, useCallback, useRef and also we are going to create few examples as well.
+- `useMemo`: useMemo is a react hook that lets you cache the result of a calculation between re-renders.
+- we have created a component i.e, useMemoExample.js to test this useMemo hook.
+- `useCallback`: useCallback is a react hook that lets you cache function definition between re-renders.
+- `useRef`: useRef is a react hook that lets you reference a value that's not needed for rendering.
+- We have created one component i.e, useRefExample.js to test this useRef hook.
+- In this component, we have created one `let` variable, one `state` varaible and one `ref` variable also and awe have created their respective buttons to increase the values of those variables.
+- If we click on increase button for the let variable, you can see the count increases in the logs (if any) but you can't see the same in the UI. Because it doesn't re-renders the component. For suppose the component got rendered or refreshed again that let variable holds the initial value which we have given.
+- If we click on the increase button for the state variable, you can see the component re-renders and also you can see the increased count in the UI. Because, wehenever a state variable updates it re-renders the component.
+- If we click on the increase button for the ref variable, you can see the count increases in the logs but you can't see the same in UI. But when the component re-renders you can see the updated value in UI.
+
+### References:
+- [useMemo](https://react.dev/reference/react/useMemo)
+- [useCallback](https://react.dev/reference/react/useCallback)
+- [useRef](https://react.dev/reference/react/useRef)
