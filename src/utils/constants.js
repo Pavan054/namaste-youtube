@@ -3,7 +3,6 @@ const GOOGLE_API_KEY = "XXXX"; // Please add your Google API Key
 export const OFFSET_LIVE_CHAT = 25;
 
 export const YOUTUBE_VIDEOS_LIST = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" + GOOGLE_API_KEY;
-// https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&key=AIzaSyB00WG-M8vUpCqY4exkwi2pdVHvdrxObVo
 
 const CORS_PROXY = "https://corsproxy.io?";
 export const YOUTUBE_SEARCH_SUGGESTION_API = CORS_PROXY + "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
